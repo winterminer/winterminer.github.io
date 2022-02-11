@@ -1,5 +1,5 @@
 const btn = document.querySelector('#main-btn');
-const url = "tg://resolve?domain=hctestserver";
+const url = "tg://resolve?domain=t.me/teenminers";
 btn.addEventListener("click", function() {
     window.location.href = url;
 });
