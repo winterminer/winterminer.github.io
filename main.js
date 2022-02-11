@@ -1,7 +1,7 @@
 const btn = document.querySelector('#main-btn');
-const url = "tg://resolve?domain=t.me/teenminers";
+const url = "tg://resolve?domain=teenminers";
 btn.addEventListener("click", function() {
     window.location.href = url;
 });
 
-btn.innerHTML = "t.me/teenminers" + url.replace("tg://resolve?domain=", "");
+btn.innerHTML = "t.me/" + url.replace("tg://resolve?domain=", "");
